@@ -16,7 +16,7 @@ function guessNumber(){
     let z = document.getElementById("playerNumber").value;
 
     if (z == x) {
-        alert("You Guess the number")
+        alert("Congrats, You Guessed the number")
         
     } else if (z < x) {
         alert("you should look for a larger number");   
