@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess_The_Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="container-title">Welcome to Guess The Number</h1>
+        <div>
+        <label for="playerNumber">Introduce your number here</label><br>
+        <input type="number" id="playerNumber" min="1" max="10">
+        <div class="btn-div">
+        <button class="btn-grad btn-grad:hover atma-light" onclick="clearNumber()">Clear</button>
+        <button class="btn-grad btn-grad:hover atma-light" type="submit" onclick="guessNumber()">Guess</button>
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

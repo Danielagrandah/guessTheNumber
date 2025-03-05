@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root{
+    --primary-color: #53346D;
+    --second-color: black;
+    --text-color: #53346D;;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    background-repeat: no-repeat;
+    font-family: "Atma", system-ui;
+}
+
+.atma-light {
+    font-family: "Atma", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    
+  }
+
+
+
+
+.container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 5vh;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+
+.btn-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+ 
+ .btn-grad {background-image: linear-gradient(to right, #000000 0%, #53346D  51%, #000000  100%)}
+ .btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
